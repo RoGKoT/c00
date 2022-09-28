@@ -49,7 +49,7 @@ void	ft_comb(int h, int d, int u)
 	else if (h < '7')
 	{
 		ft_write_separator();
-		h++;
+		h++;		
 		d = h + 1;
 		u = d + 1;
 		ft_comb(h, d, u);
